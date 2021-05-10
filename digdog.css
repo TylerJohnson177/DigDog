@@ -1,0 +1,89 @@
+h1
+{
+    text-align: center;
+    font-family: "Copperplate Gothic light", times, serif;
+    margin-bottom: 1px;
+}
+
+#wrapper
+{
+    background-color: lightgreen;
+    height: 920px;
+    width: 920px;
+    margin: auto;
+}
+
+#dangerMeter
+{
+    background-color: lightgreen;
+    height: 150px;
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 0;
+}
+
+h3
+{
+    text-align: center;
+    font-family: "Copperplate Gothic light", times, serif;
+    font-size: 1.5em;
+}
+
+p
+{
+    text-align: center;
+    font-family: "Copperplate Gothic light", times, serif;
+    font-size: 1.2em;
+}
+
+span
+{
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    background-image: url("grass.png");
+    border: 1px black solid;
+}
+
+.noBone
+{
+    background-image: url("noBone.png");
+}
+
+.bone
+{
+    background-image: url("bone.png");
+}
+
+h2
+{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    alignment: left;
+}
+
+p#output
+{
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+}
+
+div#dangerWrapper
+{
+    background-color: green;
+    border: darkgreen 1px;
+    width: 900px;
+    margin: auto;
+    height: 10px;
+    padding: 0;
+}
+
+p#dangerLevel
+{
+    text-align: left;
+    margin-top: 0;
+
+}
